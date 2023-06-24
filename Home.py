@@ -27,8 +27,8 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.subheader("This is Justice Engineers")
-        st.title("This is our Project")
+        st.title("This is Justice Engineers")
+        #st.title("This is our Project")
 
     with right_column:
         st.write(f'''
