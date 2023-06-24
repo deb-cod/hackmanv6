@@ -184,7 +184,7 @@ def main():
         selected_food_macronutrients = food_macronutrients[food_indices]
         selected_weights = np.array(weights)[food_indices]
 
-        col1, col2, col3 = st.beta_columns(3)
+        col1, col2, col3 = st.columns(3)
 
         for i, food in enumerate(selected_foods):
             if i % 3 == 0:
@@ -219,7 +219,7 @@ def main():
         selected_food_macronutrients = food_macronutrients[food_indices]
         selected_weights = np.array(weights)[food_indices]
 
-        col1, col2, col3 = st.beta_columns(3)
+        col1, col2, col3 = st.columns(3)
 
         for i, food in enumerate(selected_foods):
             if i % 3 == 0:
