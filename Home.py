@@ -119,8 +119,4 @@ Ultimately, the choice of reps should be based on the individual's fitness level
 with st.container():
     st.write("---")
     st.subheader("Contacts:")
-    column_1 = st.columns(1)
-    with column_1:
-        st.write("""Debesh Pramanick\n
-        pramanickdebesh1412@gmail.com\n
-        +91 7022883585""")
+    st.write("""Debesh Pramanick\npramanickdebesh1412@gmail.com\n+91 7022883585""")
