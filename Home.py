@@ -119,4 +119,6 @@ Ultimately, the choice of reps should be based on the individual's fitness level
 with st.container():
     st.write("---")
     st.subheader("Contacts:")
-    st.write("""Debesh Pramanick\npramanickdebesh1412@gmail.com\n+91 7022883585""")
+    st.write("""Debesh Pramanick\n
+    E-Mail: pramanickdebesh1412@gmail.com\n
+    Linkdin: https://www.linkedin.com/in/debesh-pramanick-0133b6224/""")
