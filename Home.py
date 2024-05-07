@@ -13,7 +13,7 @@ def load_lottieurl(url):
 st.set_page_config(page_title="My Webpage",page_icon="✨", layout="wide")
 st.sidebar.success("Choose the option: ")
 
-url1 = 'https://virtraa.web.app'
+url1 = 'https://virtrayog.onrender.com/'
 
 lottie_coding = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_il9wfcq9.json")
 
